@@ -1,0 +1,119 @@
+:root {
+  --primer-color: rgb(187, 153, 157, 0.5);
+  --segundo-color: rgb(102, 99, 99);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.nav {
+  padding: 1rem;
+  line-height: 2rem;
+  font-family: "Bad Script", cursive;
+  padding-top: 2rem;
+  background-color: rgb(187, 153, 157, 0.5);
+}
+
+.nav h1 {
+  font-size: 3.5rem;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.nav h2 {
+  font-size: 1.7rem;
+  text-align: center;
+  padding-top: 0.8rem;
+  color: var(--segundo-color);
+}
+
+.content #productos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  justify-items: center;
+  margin: 2rem 1rem;
+}
+
+.producto {
+  padding: 1rem 3rem;
+  line-height: 1.8rem;
+  text-align: center;
+}
+
+.producto:hover {
+  box-shadow: 0 8px 16px 0 var(--segundo-color);
+}
+
+.producto h3 {
+  color: var(--segundo-color);
+  font-size: 1.2rem;
+}
+
+.producto p {
+  font-size: 1.2rem;
+}
+
+.imagen {
+  width: 200px;
+}
+
+.btn {
+  border-radius: 10px;
+  height: 25px;
+  width: 120px;
+  background: #fff;
+  color: var(--segundo-color);
+  border-color: black;
+  text-align: center;
+  margin: 0.5rem 0;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  height: 80px;
+  background-color: var(--primer-color);
+}
+
+.f-style {
+  color: var(--segundo-color);
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-end;
+}
+
+.redes a {
+  margin: 25px 0.8rem;
+}
+
+.redes a:last-child {
+  margin-right: 2rem;
+}
