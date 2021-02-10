@@ -14,7 +14,7 @@
     ></script>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/menu.css" />
-    <title>Sol Azul | Macetas Artesanales</title>
+    <title>Carrito | Sol Azul</title>
   </head>
   <body>
     <div class="container">
@@ -40,21 +40,34 @@
           <h2>· Macetas Artesanales ·</h2>
         </div>
         <nav class="miCarrito dropdown">
-          <a href="carrito.html" id="carrito" class="dropbtn"
-            >Mi Carrito<i class="fas fa-shopping-cart"
-              ><b id="contador"> 0 </b></i
-            ></a
+          <a href="#" id="carrito" class="dropbtn"
+            >Mi Carrito<i class="fas fa-shopping-cart"><b> 0 </b></i></a
           >
           <div class="dropdown-content">
-            <div class="info">
-              <h2>Nombre</h2>
-              <p>Precio</p>
-            </div>
+            <a href="#">Item 1</a>
+            <a href="#">Item 2</a>
+            <a href="#">Item 3</a>
           </div>
         </nav>
       </header>
-      <div class="content">
-        <div id="productos"></div>
+
+      <div class="content carrito">
+        <h1>Mi Carrito</h1>
+        <div class="container-carrito">
+          <div class="imagen"><h2>Foto</h2></div>
+          <div class="name"><h2>Nombre</h2></div>
+          <div class="precio"><h2>Precio</h2></div>
+          <div class="cantidad"><h2>Cantidad</h2></div>
+          <div class="subtotal"><h2>Subtotal</h2></div>
+        </div>
+        <div class="container-productos">
+          <div class="imagen"><p>Imagen</p></div>
+          <div class="name"><p>Nombre</p></div>
+          <div class="precio"><p>Precio</p></div>
+          <div class="cantidad"><p>Cantidad</p></div>
+          <div class="subtotal"><p>Subtotal</p></div>
+        </div>
+        <!-- Container-productos tiene que ser dinamico y depender del js, dependiendo que haya en el carrito, se tiene que actualizar. PONELE -->
       </div>
 
       <footer class="footer">
@@ -64,6 +77,5 @@
         </div>
       </footer>
     </div>
-    <script src="script.js"></script>
   </body>
 </html>

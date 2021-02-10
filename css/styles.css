@@ -11,7 +11,7 @@
 
 html,
 body {
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   background-color: #fff;
 }
 
@@ -28,12 +28,12 @@ a {
   width: 100vw;
 }
 
-.nav {
+.header {
   padding: 1rem;
   line-height: 2rem;
-  font-family: "Bad Script", cursive;
+  font-family: 'Bad Script', cursive;
   padding-top: 2rem;
-  background-color: rgb(187, 153, 157, 0.5);
+  background-color: var(--primer-color);
 }
 
 .nav h1 {
@@ -48,6 +48,48 @@ a {
   text-align: center;
   padding-top: 0.8rem;
   color: var(--segundo-color);
+}
+
+.miCarrito {
+  position: absolute;
+  right: 0;
+  top: 25px;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: var(--primer-color);
+}
+
+.miCarrito a {
+  color: #fff;
+  font-size: 1.4rem;
+  font-style: bold;
+}
+
+.miCarrito a:hover {
+  color: var(--segundo-color);
+}
+
+.fas {
+  margin-left: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: transparent;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #fff;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 .content #productos {
@@ -116,4 +158,34 @@ a {
 
 .redes a:last-child {
   margin-right: 2rem;
+}
+
+/* Carrito */
+.carrito {
+  font-family: 'Courier New', Courier, monospace;
+  color: var(--segundo-color);
+}
+
+.carrito h1 {
+  text-align: center;
+  margin: 1.8rem;
+  font-size: 2.5rem;
+}
+
+.carrito h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.container-carrito,
+.container-productos {
+  margin: 1.5rem;
+  margin-top: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 5px;
+}
+
+.name {
+  grid-column: 2 / 4;
 }
