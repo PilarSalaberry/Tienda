@@ -159,41 +159,37 @@ a {
   cursor: pointer;
 }
 
-/* Productos */
+/* Carrito Html */
 
-.content #productos {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 5px;
-  justify-items: center;
-  margin: 2rem 1rem;
-}
-
-.producto {
-  padding: 1rem 3rem;
-  line-height: 1.8rem;
-  text-align: center;
-}
-
-.producto:hover {
-  box-shadow: 0 8px 16px 0 var(--segundo-color);
-}
-
-.producto h3 {
+.carro {
+  font-family: 'Montserrat', sans-serif;
   color: var(--segundo-color);
-  font-size: 1.2rem;
 }
 
-.producto p {
-  font-size: 1.2rem;
+.carro h1 {
+  text-align: center;
+  margin: 1rem;
+  font-family: 'Bad Script', cursive;
 }
 
-.imagen {
-  width: 200px;
+.carro h2 {
+  font-weight: 400;
+}
+
+.carro-carrito,
+.carro-productos {
+  margin: 1.5rem;
+  margin-top: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 5px;
+}
+
+.name {
+  grid-column: 2 / 4;
 }
 
 /* Footer */
-
 .footer {
   display: flex;
   flex-direction: row;

@@ -101,7 +101,7 @@
 }
 
 .menu-wrap .menu > div {
-  background: var(--primer-color);
+  background: var(--transparent-color);
   width: 200vw;
   height: 200vw;
   display: flex;

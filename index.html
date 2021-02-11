@@ -8,6 +8,8 @@
       href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
     <script
       src="https://kit.fontawesome.com/bb17b3b552.js"
       crossorigin="anonymous"
@@ -22,9 +24,9 @@
         <div class="menu-wrap">
           <input type="checkbox" class="toggler" />
           <div class="hamburger"><div></div></div>
-          <div class="menu">
+            <div class="menu">
             <div>
-              <div>
+              <div>              
                 <ul>
                   <li><a href="index.html">Inicio</a></li>
                   <li><a href="#">Macetas de Cemento</a></li>
@@ -41,14 +43,15 @@
         </div>
         <nav class="miCarrito dropdown">
           <a href="carrito.html" id="carrito" class="dropbtn"
-            >Mi Carrito<i class="fas fa-shopping-cart"
-              ><b id="contador"> 0 </b></i
+            >Mi Carrito<i class="fas fa-shopping-cart fa-carrito"></i><b id="cantidad">0</b></i
             ></a
           >
           <div class="dropdown-content">
+            <div id="productosCarrito">
+            </div>
             <div class="info">
-              <h2>Nombre</h2>
-              <p>Precio</p>
+              <p id="precioTotal">Total:</p>
+              <button class="btn-carrito" onclick="vaciarCarrito()">Vaciar carrito</button>
             </div>
           </div>
         </nav>
@@ -58,9 +61,11 @@
       </div>
 
       <footer class="footer">
-        <div class="redes">
-          <a href="#"><i class="fab fa-facebook-square fa-2x f-style"></i></a>
-          <a href="#"><i class="fab fa-instagram fa-2x f-style"></i></a>
+        <div class="iconos">
+          <a href="#"><i class="fas fa-home fa-2x f-style"></i></a>
+          <a href="#"><i class="fab fa-facebook-square f-style"></i></a>
+          <a href="#"><i class="fab fa-instagram f-style"></i></a>
+          <p>Copyright &copy; Queseyo</p>
         </div>
       </footer>
     </div>
