@@ -129,3 +129,9 @@ function eliminarProducto(id) {
   carrito = nuevoCarrito;
   actualizarCarrito();
 }
+
+$(document).ready(function () {
+  $('.menu-wrap').click(function () {
+    $('.menu').toggle();
+  });
+});

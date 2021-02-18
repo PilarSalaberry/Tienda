@@ -73,35 +73,22 @@
   transform: rotate(225deg);
 }
 
-.menu-wrap .toggler:checked ~ .menu {
-  visibility: visible;
-}
-
-.menu-wrap .toggler:checked ~ .menu > div {
-  transform: scale(1);
-  transition-duration: 0.75s;
-}
-
-.menu-wrap .toggler:checked ~ .menu > div > div {
-  opacity: 1;
-  transition: opacity 0.4s ease 0.4s;
-}
-
 .menu-wrap .menu {
-  position: fixed;
-  top: 130px;
-  left: 0;
-  visibility: hidden;
-  overflow: hidden;
-  display: flex;
+  position: absolute;
+  top: 100px;
+  left: -20px;
+  /* visibility: hidden;
+  overflow: hidden; */
+  display: none;
+  /*  display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   line-height: 2.5;
 }
 
 .menu-wrap .menu > div {
   background-color: var(--primer-color);
-  width: 350px;
+  width: 280px;
   height: 400px;
   display: flex;
   align-items: center;
@@ -110,9 +97,8 @@
 
 .menu-wrap .menu > div > div > ul > li {
   color: #fff;
-  font: 2.2rem;
   padding: 1.3rem;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
 }
 
 .menu-wrap .menu > div > div > ul > li > a {
