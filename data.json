@@ -1,0 +1,37 @@
+[
+   {
+      "id":"1",
+      "nombre":"Maceta 1",
+      "precio":500,
+      "stock":1,
+      "tipo":"Piedras"
+   },
+   {
+      "id":"2",
+      "nombre":"Maceta 2",
+      "precio":600,
+      "stock":1,
+      "tipo":"Piedras"
+   },
+   {
+      "id":"3",
+      "nombre":"Maceta 3",
+      "precio":550,
+      "stock":1,
+      "tipo":"Cemento"
+   },
+   {
+      "id":"4",
+      "nombre":"Maceta 4",
+      "precio":350,
+      "stock":1,
+      "tipo":"Cemento"
+   },
+   {
+      "id":"5",
+      "nombre":"Maceta 5",
+      "precio":300,
+      "stock":1,
+      "tipo":"Cemento"
+   }
+]

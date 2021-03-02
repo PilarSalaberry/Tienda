@@ -104,7 +104,6 @@ a {
   position: relative;
   background-color: var(--primer-color);
   min-width: 100px;
-  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
   z-index: 1;
   font-family: 'Montserrat', sans-serif;
 }
@@ -136,13 +135,12 @@ a {
   align-items: center;
 }
 
-.cardCarrito {
+/* .cardCarrito {
   display: flex;
   flex-direction: row;
-  border-bottom: 1px dotted #fff;
   margin: 0.4rem;
   padding: 0.5rem;
-}
+} */
 
 .agregados {
   width: 80%;
@@ -190,6 +188,15 @@ a {
 
 .imagen {
   width: 200px;
+}
+
+.popup {
+  
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  width: 300px;
+  border: 2px solid var(--segundo-color);
+  box-shadow: 0px 0px 10px var(--segundo-color);
 }
 
 /* Footer */
