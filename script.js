@@ -46,14 +46,6 @@ class Carrito {
   }
 }
 
-/* let producto1 = new Producto(1, 'Maceta 1', 500, 1, 'Maceta de Piedras');
-let producto2 = new Producto(2, 'Maceta 2', 600, 1, 'Maceta de Piedras');
-let producto3 = new Producto(3, 'Maceta 3', 550, 1, 'Maceta de Cemento');
-let producto4 = new Producto(4, 'Maceta 4', 350, 1, 'Maceta de Cemento');
-let producto5 = new Producto(5, 'Maceta 5', 300, 1, 'Maceta de Cemento');
-
-let listaProductos = [producto1, producto2, producto3, producto4, producto5]; */
-
 let prod = ``;
 function mostrarProductos() {
   for (let i = 0; i < listaProductos.length; i++) {
@@ -100,16 +92,6 @@ function actualizarCarrito() {
   $('#productosCarrito').html(prodCarrito);
 }
 
-/* <div class="agregados">
-      <h3>${carrito[i].nombre}</h3>
-      <p>${`$` + carrito[i].precio}</p>
-    </div>
-    <div>
-      <button class="x-carrito" onclick="eliminarProducto(${
-        carrito[i].id
-      })"><i class="fas fa-times"></i></button>
-    </div> */
-
 function agregarAlCarrito(nombreProducto) {
   carrito.push(nombreProducto);
   localStorage.setItem('carrito', JSON.stringify(carrito));
@@ -137,7 +119,7 @@ function vaciarCarrito() {
   actualizarCarrito();
 }
 
-function eliminarProducto(id) {
+/* function eliminarProducto(id) {
   let nuevoCarrito = [];
   let suma = 0;
   for (let i = 0; i < carrito.length; i++) {
@@ -150,7 +132,7 @@ function eliminarProducto(id) {
   document.getElementById('precioTotal').innerHTML = suma;
   carrito = nuevoCarrito;
   actualizarCarrito();
-}
+} */
 
 $(document).ready(function () {
   $('.menu-wrap').click(function () {

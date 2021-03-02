@@ -135,28 +135,6 @@ a {
   align-items: center;
 }
 
-/* .cardCarrito {
-  display: flex;
-  flex-direction: row;
-  margin: 0.4rem;
-  padding: 0.5rem;
-} */
-
-.agregados {
-  width: 80%;
-}
-
-.x-carrito {
-  width: 20%;
-  background-color: transparent;
-  border: none;
-  color: #fff;
-}
-
-.x-carrito:hover {
-  cursor: pointer;
-}
-
 /* Productos */
 
 .content #productos {
@@ -191,7 +169,6 @@ a {
 }
 
 .popup {
-  
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   width: 300px;
