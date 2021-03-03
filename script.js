@@ -56,9 +56,6 @@ function mostrarProductos() {
     }" class="imagen" />
     <h3>${listaProductos[i].nombre}</h3>
     <p>${`$` + listaProductos[i].precio}</p>
-    <button class="btn" onclick="consultaStock(${listaProductos[i].id})">
-    Consultar Stock
-    </button>
     <button class="btn" onclick='agregarAlCarrito(${JSON.stringify(
       listaProductos[i]
     )})'>Agregar al carrito</button>
@@ -68,7 +65,7 @@ function mostrarProductos() {
   $('#productos').html(prod);
 }
 
-function consultaStock(idProducto) {
+/* function consultaStock(idProducto) {
   let cantidad = Number(prompt('Ingrese la cantidad deseada'));
   for (let i = 0; i < listaProductos.length; i++) {
     if (listaProductos[i].id === idProducto) {
@@ -79,7 +76,7 @@ function consultaStock(idProducto) {
       }
     }
   }
-}
+} */
 
 function actualizarCarrito() {
   let prodCarrito = ``;
@@ -99,12 +96,15 @@ function agregarAlCarrito(nombreProducto) {
   for (let i = 0; i < carrito.length; i++) {
     suma += carrito[i].precio;
   }
-  $('#producto-carrito').html(`
-  <p class="popup">Agregaste un producto al carrito</p>`);
-  $('#producto-carrito').slideDown(1000);
+
+  $('#snackbar').html(`
+  <p>Agregaste un producto al carrito</p>`);
+  var s = document.getElementById('snackbar');
+  s.className = 'show';
   setTimeout(function () {
-    $('producto-carrito').slideUp(1000);
-  }, 2500);
+    s.className = s.className.replace('show', '');
+  }, 3000);
+
   $('#precioTotal').html(suma);
   $('#cantidad').html(carrito.length);
   actualizarCarrito();
@@ -118,21 +118,6 @@ function vaciarCarrito() {
   $('#precioTotal').html(0);
   actualizarCarrito();
 }
-
-/* function eliminarProducto(id) {
-  let nuevoCarrito = [];
-  let suma = 0;
-  for (let i = 0; i < carrito.length; i++) {
-    if (carrito[i].id != id) {
-      nuevoCarrito.push(carrito[i]);
-      suma += carrito[i].precio;
-    }
-  }
-  localStorage.setItem('carrito', JSON.stringify(nuevoCarrito));
-  document.getElementById('precioTotal').innerHTML = suma;
-  carrito = nuevoCarrito;
-  actualizarCarrito();
-} */
 
 $(document).ready(function () {
   $('.menu-wrap').click(function () {
