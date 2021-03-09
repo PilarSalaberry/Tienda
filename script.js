@@ -27,22 +27,24 @@ class Producto {
     nombreProducto,
     precioProducto,
     stockProducto,
+    imgProducto,
     tipoProducto,
-    imgProducto
+    descripcionProducto
   ) {
     this.id = idProducto;
     this.nombre = nombreProducto;
     this.precio = precioProducto;
     this.stock = stockProducto;
+    this.imagen = imgProducto;
     this.tipo = tipoProducto;
-    this.img = imgProducto;
+    this.descripcion = descripcionProducto;
   }
 }
 
 class Carrito {
-  constructor(cantidadProductos, precioTotal) {
+  constructor(cantidadProductos, precio) {
     this.cantidad = cantidadProductos;
-    this.precio = precioTotal;
+    this.precio = precio;
   }
 }
 
@@ -51,9 +53,7 @@ function mostrarProductos() {
   for (let i = 0; i < listaProductos.length; i++) {
     prod += `
     <div class="producto">
-    <img src="${
-      `img/Producto` + listaProductos[i].id + `.jpeg`
-    }" class="imagen" />
+    <img src="${listaProductos[i].imagen}" class="imagen" />
     <h3>${listaProductos[i].nombre}</h3>
     <p>${`$` + listaProductos[i].precio}</p>
     <button class="btn" onclick='agregarAlCarrito(${JSON.stringify(
@@ -65,28 +65,18 @@ function mostrarProductos() {
   $('#productos').html(prod);
 }
 
-/* function consultaStock(idProducto) {
-  let cantidad = Number(prompt('Ingrese la cantidad deseada'));
-  for (let i = 0; i < listaProductos.length; i++) {
-    if (listaProductos[i].id === idProducto) {
-      if (listaProductos[i].stock >= cantidad) {
-        alert('Hay stock');
-      } else {
-        alert('No hay stock');
-      }
-    }
-  }
-} */
-
 function actualizarCarrito() {
   let prodCarrito = ``;
+  let suma = 0;
   for (let i = 0; i < carrito.length; i++) {
+    suma = suma + carrito[i].precio;
     prodCarrito += `
     <div class="cardCarrito">
     </div>
     `;
   }
   $('#productosCarrito').html(prodCarrito);
+  $('#precio').html(suma);
 }
 
 function agregarAlCarrito(nombreProducto) {
@@ -105,7 +95,7 @@ function agregarAlCarrito(nombreProducto) {
     s.className = s.className.replace('show', '');
   }, 3000);
 
-  $('#precioTotal').html(suma);
+  $('#precio').html(suma);
   $('#cantidad').html(carrito.length);
   actualizarCarrito();
 }
@@ -115,7 +105,7 @@ function vaciarCarrito() {
   localStorage.setItem('carrito', JSON.stringify(nuevoCarrito));
   carrito = nuevoCarrito;
   $('#cantidad').html(0);
-  $('#precioTotal').html(0);
+  $('#precio').html(0);
   actualizarCarrito();
 }
 
@@ -124,3 +114,5 @@ $(document).ready(function () {
     $('.menu').toggle(1000);
   });
 });
+
+function mostrarCemento() {}

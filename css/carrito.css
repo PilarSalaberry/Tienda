@@ -80,7 +80,7 @@ a {
   font-style: bold;
 }
 
-.miCarrito a:hover {
+.miCarrito > a:hover {
   color: var(--segundo-color);
 }
 
@@ -150,6 +150,31 @@ a {
   margin: 1rem;
 }
 
+.vacio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vacio-a {
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.fa-angle-right {
+  font-size: 1.6rem;
+  padding: 0.5rem;
+}
+
+.vacio-a:hover {
+  color: var(--primer-color);
+  font-size: 2rem;
+}
+
+/* Intentar sacar el link y poner un boton con onclick */
+
 .contenido-carro h1 {
   font-size: 2.4rem;
   padding-top: 1.8rem;
@@ -162,7 +187,7 @@ a {
   margin: 1rem;
   padding: 1rem;
   display: grid;
-  grid-template-columns: repeat(4, 300px);
+  grid-template-columns: repeat(4, 25%);
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -196,8 +221,48 @@ a {
   background-color: var(--primer-color);
 }
 
+.agregados {
+  width: 55%;
+}
+
 .total {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+}
+
+/* Form */
+
+.contenido-interno {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenedor-form {
+  width: 45%;
+  padding-left: 2rem;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  margin: 1.2rem;
+  align-items: center;
+}
+
+.label {
+  padding: 0.5rem;
+  width: 300px;
+  font-size: 1.2rem;
+}
+
+.input {
+  padding: 0.5rem;
+  width: 350px;
+  height: 30px;
+  font-size: 1rem;
+}
+
+.icono {
+  margin-right: 0.7rem;
 }
 
 /* Footer */

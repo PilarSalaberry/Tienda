@@ -1,5 +1,7 @@
 let carrito = [];
-let textoVacio = `<p class="carrito-vacio">Tu carrito esta vacio</p>`;
+let textoVacio = `<p class="carrito-vacio">Tu carrito esta vacio</p>
+<div class="vacio">
+<a class="vacio-a" href="index.html"><i class="fas fa-angle-right"></i>Ir a comprar! </a></div>`;
 let agregados = ``;
 
 if (localStorage.getItem('carrito') != null) {
@@ -36,7 +38,6 @@ function vaciarCarrito() {
   $('#cantidad').html(0);
   $('#precio').html(0);
   actualizarCarrito();
-  textoVacio = `<p class="carrito-vacio">Tu carrito esta vacio</p>`;
   $('#agregados').html(textoVacio);
   $('#total').css('display', 'none');
 }
@@ -50,9 +51,7 @@ function mostrarAgregados() {
     agregados += `
     <div class="card-producto">
       <div class="img-carrito">
-        <img src="${
-          `img/Producto` + carrito[i].id + `.jpeg`
-        }" class="imagen-carrito" />
+        <img src="${carrito[i].imagen}" class="imagen-carrito" />
       </div>
       <div class="name">
         <p>${carrito[i].nombre}</p>
@@ -61,9 +60,7 @@ function mostrarAgregados() {
         <p>$${carrito[i].precio}</p>
       </div>
       <div>
-       <button class="x-carrito" onclick="borrarProducto(${
-         carrito[i].id
-       })">Borrar producto</button>
+       <button class="x-carrito" onclick="borrarProducto(${carrito[i].id})">Borrar producto</button>
       </div>
   </div>
     `;

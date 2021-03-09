@@ -4,13 +4,15 @@
       "nombre":"Maceta 1",
       "precio":500,
       "stock":1,
+      "imagen":"../img/Maceta 1.jpg",
       "tipo":"Piedras"
    },
    {
       "id":"2",
       "nombre":"Maceta 2",
-      "precio":600,
+      "precio":500,
       "stock":1,
+      "imagen":"../img/Maceta 2.jpg",
       "tipo":"Piedras"
    },
    {
@@ -18,6 +20,7 @@
       "nombre":"Maceta 3",
       "precio":550,
       "stock":1,
+      "imagen":"../img/Maceta 3.jpg",
       "tipo":"Cemento"
    },
    {
@@ -25,13 +28,135 @@
       "nombre":"Maceta 4",
       "precio":350,
       "stock":1,
+      "imagen":"../img/Maceta 4.jpg",
       "tipo":"Cemento"
    },
    {
       "id":"5",
       "nombre":"Maceta 5",
+      "precio":350,
+      "stock":1,
+      "imagen":"../img/Maceta 5.jpg",
+      "tipo":"Cemento"
+   },
+   {
+      "id":"6",
+      "nombre":"Maceta 6",
       "precio":300,
       "stock":1,
+      "imagen":"../img/Maceta 6.jpg",
       "tipo":"Cemento"
-   }
+   },
+   {
+      "id":"7",
+      "nombre":"Maceta 7",
+      "precio":450,
+      "stock":1,
+      "imagen":"../img/Maceta 7.jpg",
+      "tipo":"Cemento"
+   },
+   {
+      "id":"8",
+      "nombre":"Maceta 8",
+      "precio":300,
+      "stock":1,
+      "imagen":"../img/Maceta 8.jpg",
+      "tipo":"Cemento"
+   },
+   {
+      "id":"9",
+      "nombre":"Maceta 9",
+      "precio":300,
+      "stock":1,
+      "imagen":"../img/Maceta 9.jpg",
+      "tipo":"Cemento"
+   },
+   {
+      "id":"10",
+      "nombre":"Maceta 10",
+      "precio":300,
+      "stock":1,
+      "imagen":"../img/Maceta 10.jpg",
+      "tipo":"Cemento"
+   },
+   {
+      "id":"11",
+      "nombre":"Maceta 11",
+      "precio":300,
+      "stock":1,
+      "imagen":"../img/Maceta 11.jpg",
+      "tipo":"Cemento"
+   },
+   {
+      "id":"12",
+      "nombre":"Maceta 12",
+      "precio":300,
+      "stock":1,
+      "imagen":"../img/Maceta 12.jpg",
+      "tipo":"Cemento"
+   },
+   {
+      "id":"13",
+      "nombre":"Maceta 13",
+      "precio":300,
+      "stock":1,
+      "imagen":"../img/Maceta 13.jpg",
+      "tipo":"Cemento"
+   },
+   {
+      "id":"14",
+      "nombre":"Maceta 14",
+      "precio":300,
+      "stock":1,
+      "imagen":"../img/Maceta 14.jpg",
+      "tipo":"Cemento"
+   },
+   {
+      "id":"15",
+      "nombre":"Maceta 15",
+      "precio":300,
+      "stock":1,
+      "imagen":"../img/Maceta 15.jpg",
+      "tipo":"Cemento"
+   },
+   {
+      "id":"16",
+      "nombre":"Maceta 16",
+      "precio":300,
+      "stock":1,
+      "imagen":"../img/Maceta 16.jpg",
+      "tipo":"Cemento"
+   },
+   {
+      "id":"17",
+      "nombre":"Maceta 17",
+      "precio":300,
+      "stock":1,
+      "imagen":"../img/Maceta 17.jpg",
+      "tipo":"Cemento"
+   },
+   {
+      "id":"18",
+      "nombre":"Maceta 18",
+      "precio":300,
+      "stock":1,
+      "imagen":"../img/Maceta 18.jpg",
+      "tipo":"Cemento"
+   },
+   {
+      "id":"19",
+      "nombre":"Maceta 19",
+      "precio":300,
+      "stock":1,
+      "imagen":"../img/Maceta 19.jpg",
+      "tipo":"Cemento"
+   },
+   {
+      "id":"20",
+      "nombre":"Maceta 20",
+      "precio":300,
+      "stock":1,
+      "imagen":"../img/Maceta 20.jpg",
+      "tipo":"Cemento"
+   }   
 ]
