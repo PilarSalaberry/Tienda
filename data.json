@@ -5,7 +5,8 @@
       "precio":500,
       "stock":1,
       "imagen":"../img/Maceta 1.jpg",
-      "tipo":"Piedras"
+      "tipo":"Piedras",
+      "descripcion":"Alto: 11cm, Diametro: 11cm, Circunferencia: 34cm"
    },
    {
       "id":"2",
@@ -13,7 +14,8 @@
       "precio":500,
       "stock":1,
       "imagen":"../img/Maceta 2.jpg",
-      "tipo":"Piedras"
+      "tipo":"Piedras",
+      "descripcion":"Alto: 11cm, Diametro: 11cm, Circunferencia: 34cm"
    },
    {
       "id":"3",
@@ -21,7 +23,8 @@
       "precio":550,
       "stock":1,
       "imagen":"../img/Maceta 3.jpg",
-      "tipo":"Cemento"
+      "tipo":"Cemento",
+      "descripcion":"Alto: 11cm, Diametro: 11cm, Circunferencia: 34cm"
    },
    {
       "id":"4",
@@ -29,7 +32,8 @@
       "precio":350,
       "stock":1,
       "imagen":"../img/Maceta 4.jpg",
-      "tipo":"Cemento"
+      "tipo":"Cemento",
+      "descripcion":"Alto: 9cm, Diametro: 10,5cm, Circunferencia: 33,5cm"
    },
    {
       "id":"5",
@@ -37,7 +41,8 @@
       "precio":350,
       "stock":1,
       "imagen":"../img/Maceta 5.jpg",
-      "tipo":"Cemento"
+      "tipo":"Cemento",
+      "descripcion":"Alto: 9cm, Diametro:10,5cm, Circunferencia: 33,5cm"
    },
    {
       "id":"6",
@@ -45,7 +50,8 @@
       "precio":300,
       "stock":1,
       "imagen":"../img/Maceta 6.jpg",
-      "tipo":"Cemento"
+      "tipo":"Cemento",
+      "descripcion":"Alto: 9cm, Diametro: 16cm, Circunferencia: 50cm"
    },
    {
       "id":"7",
@@ -53,7 +59,8 @@
       "precio":450,
       "stock":1,
       "imagen":"../img/Maceta 7.jpg",
-      "tipo":"Cemento"
+      "tipo":"Cemento",
+      "descripcion":"Alto: 10cm, Diametro: 14cm, Circunferencia: 43cm"
    },
    {
       "id":"8",
@@ -61,7 +68,8 @@
       "precio":300,
       "stock":1,
       "imagen":"../img/Maceta 8.jpg",
-      "tipo":"Cemento"
+      "tipo":"Cemento",
+      "descripcion":"Alto: 9,5cm, Diametro: 11,5cm, Circunferencia: 37cm"
    },
    {
       "id":"9",
@@ -69,7 +77,8 @@
       "precio":300,
       "stock":1,
       "imagen":"../img/Maceta 9.jpg",
-      "tipo":"Cemento"
+      "tipo":"Cemento",
+      "descripcion":"Alto: 10cm, Diametro: 14cm, Circunferencia: 43cm"
    },
    {
       "id":"10",
@@ -77,7 +86,8 @@
       "precio":300,
       "stock":1,
       "imagen":"../img/Maceta 10.jpg",
-      "tipo":"Cemento"
+      "tipo":"Cemento",
+      "descripcion":"Alto: 14cm, Diametro: 17cm, Circunferencia: 54cm"
    },
    {
       "id":"11",
@@ -85,7 +95,8 @@
       "precio":300,
       "stock":1,
       "imagen":"../img/Maceta 11.jpg",
-      "tipo":"Cemento"
+      "tipo":"Cemento",
+      "descripcion":"Alto: 16cm, Diametro: 24cm, Circunferencia: 75cm"
    },
    {
       "id":"12",
@@ -93,7 +104,8 @@
       "precio":300,
       "stock":1,
       "imagen":"../img/Maceta 12.jpg",
-      "tipo":"Cemento"
+      "tipo":"Cemento",
+      "descripcion":"Alto: 11cm, Diametro: 11cm, Circunferencia: 36cm"
    },
    {
       "id":"13",
@@ -101,7 +113,8 @@
       "precio":300,
       "stock":1,
       "imagen":"../img/Maceta 13.jpg",
-      "tipo":"Cemento"
+      "tipo":"Cemento",
+      "descripcion":"Alto: 11cm, Diametro: 11cm, Circunferencia: 34cm"
    },
    {
       "id":"14",
@@ -109,7 +122,8 @@
       "precio":300,
       "stock":1,
       "imagen":"../img/Maceta 14.jpg",
-      "tipo":"Cemento"
+      "tipo":"Cemento",
+      "descripcion":"Alto: 11,5cm, Diametro: 11cm, Circunferencia: 36cm"
    },
    {
       "id":"15",
@@ -117,7 +131,8 @@
       "precio":300,
       "stock":1,
       "imagen":"../img/Maceta 15.jpg",
-      "tipo":"Cemento"
+      "tipo":"Cemento",
+      "descripcion":"Alto: 10cm, Diametro: 11cm, Circunferencia: 34cm"
    },
    {
       "id":"16",
@@ -125,7 +140,8 @@
       "precio":300,
       "stock":1,
       "imagen":"../img/Maceta 16.jpg",
-      "tipo":"Cemento"
+      "tipo":"Cemento",
+      "descripcion":"Alto: 11cm, Diametro: 11cm, Circunferencia: 34cm"
    },
    {
       "id":"17",
@@ -133,7 +149,8 @@
       "precio":300,
       "stock":1,
       "imagen":"../img/Maceta 17.jpg",
-      "tipo":"Cemento"
+      "tipo":"Cemento",
+      "descripcion":"Alto: 10cm, Diametro: 11cm, Circunferencia: 34cm"
    },
    {
       "id":"18",
@@ -141,7 +158,8 @@
       "precio":300,
       "stock":1,
       "imagen":"../img/Maceta 18.jpg",
-      "tipo":"Cemento"
+      "tipo":"Cemento",
+      "descripcion":"Alto: 10cm, Diametro: 11cm, Circunferencia: 34cm"
    },
    {
       "id":"19",
@@ -149,7 +167,8 @@
       "precio":300,
       "stock":1,
       "imagen":"../img/Maceta 19.jpg",
-      "tipo":"Cemento"
+      "tipo":"Cemento",
+      "descripcion":"Alto: 10cm, Diametro: 12cm, Circunferencia: 38cm"
    },
    {
       "id":"20",
@@ -157,6 +176,34 @@
       "precio":300,
       "stock":1,
       "imagen":"../img/Maceta 20.jpg",
-      "tipo":"Cemento"
+      "tipo":"Cemento",
+      "descripcion":"Alto: 10cm, Diametro: 11cm, Circunferencia: 34cm"
+   },
+   {
+      "id":"21",
+      "nombre":"Maceta 21",
+      "precio":300,
+      "stock":1,
+      "imagen":"../img/Maceta 21.jpg",
+      "tipo":"Cemento",
+      "descripcion":"Alto: 8cm, Diametro: 15.5cm, Circunferencia: 49cm"
+   },
+   {
+      "id":"22",
+      "nombre":"Maceta 22",
+      "precio":300,
+      "stock":1,
+      "imagen":"../img/Maceta 22.jpg",
+      "tipo":"Cemento",
+      "descripcion":"Alto: 11cm, Diametro: 11cm, Circunferencia: 36cm"
+   },
+   {
+      "id":"23",
+      "nombre":"Maceta 23",
+      "precio":300,
+      "stock":1,
+      "imagen":"../img/Maceta 23.jpg",
+      "tipo":"Cemento",
+      "descripcion":"Alto: 10cm, Diametro: 11cm, Circunferencia: 34cm"
    }   
 ]

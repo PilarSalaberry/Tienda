@@ -28,8 +28,6 @@
               <div>
                 <ul>
                   <li><a href="index.html">Inicio</a></li>
-                  <li><a href="#">Macetas de Cemento</a></li>
-                  <li><a href="#">Macetas de Piedras</a></li>
                   <li><a href="#">Contacto</a></li>
                 </ul>
               </div>
@@ -63,6 +61,10 @@
           <p class="carrito-vacio">Tu carrito esta vacio</p>
         </div>
         <div class="contenedor-form">
+          <form id="form">
+            <div class="wrap">
+              <p class="p-form">Completa el formulario con tus datos para realizar la compra</p>
+            </div>
           <div class="wrap">
             <label class="label" for="nombre"
               ><i class="fas fa-user icono"></i>Nombre y Apellido</label
@@ -135,6 +137,11 @@
               placeholder="Ingresa tu codigo postal"
             />
           </div>
+          <div class="wrap">
+            <input type="submit" class="submit btn" value="Comprar" onclick="sendForm()">
+          </div>
+          <div id="alert" class="alert"></div>
+        </form>
         </div>
       </div>
         <div id="total" class="total">

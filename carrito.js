@@ -93,3 +93,30 @@ function borrarProducto(id) {
   $('#cantidad').html(carrito.length);
   mostrarAgregados();
 }
+
+let nombre = document.getElementById('nombre');
+let email = document.getElementById('email');
+let telefono = document.getElementById('telefono');
+let dni = document.getElementById('dni');
+let direccion = document.getElementById('direccion');
+let postal = document.getElementById('postal');
+let alert = document.getElementById('alert');
+
+function sendForm() {
+  let form = document.getElementById('form');
+  if (
+    nombre.value === '' ||
+    email.value === '' ||
+    telefono.value === '' ||
+    dni.value === '' ||
+    direccion.value === '' ||
+    postal === ''
+  ) {
+    alert.innerHTML = 'Por favor completa todos los campos para continuar';
+  } else {
+    form.reset();
+    alert.innerHTML = 'Formulario enviado';
+  }
+  event.preventDefault();
+  vaciarCarrito();
+}
